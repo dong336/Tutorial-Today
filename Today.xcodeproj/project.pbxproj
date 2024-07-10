@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2D9096872C3E3D41005EBC4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9096862C3E3D41005EBC4F /* AppDelegate.swift */; };
 		2D9096892C3E3D41005EBC4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9096882C3E3D41005EBC4F /* SceneDelegate.swift */; };
-		2D90968B2C3E3D41005EBC4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D90968A2C3E3D41005EBC4F /* ViewController.swift */; };
+		2D90968B2C3E3D41005EBC4F /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D90968A2C3E3D41005EBC4F /* ReminderListViewController.swift */; };
 		2D90968E2C3E3D41005EBC4F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2D90968D2C3E3D41005EBC4F /* Base */; };
 		2D9096912C3E3D41005EBC4F /* Today.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D90968F2C3E3D41005EBC4F /* Today.xcdatamodeld */; };
 		2D9096932C3E3D42005EBC4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9096922C3E3D42005EBC4F /* Assets.xcassets */; };
@@ -17,6 +17,7 @@
 		2D9096A12C3E3D42005EBC4F /* TodayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9096A02C3E3D42005EBC4F /* TodayTests.swift */; };
 		2D9096AB2C3E3D42005EBC4F /* TodayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9096AA2C3E3D42005EBC4F /* TodayUITests.swift */; };
 		2D9096AD2C3E3D42005EBC4F /* TodayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9096AC2C3E3D42005EBC4F /* TodayUITestsLaunchTests.swift */; };
+		2D9096BB2C3E3DF7005EBC4F /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9096BA2C3E3DF7005EBC4F /* Reminder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,7 @@
 		2D9096832C3E3D41005EBC4F /* Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9096862C3E3D41005EBC4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D9096882C3E3D41005EBC4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D90968A2C3E3D41005EBC4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D90968A2C3E3D41005EBC4F /* ReminderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListViewController.swift; sourceTree = "<group>"; };
 		2D90968D2C3E3D41005EBC4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D9096902C3E3D41005EBC4F /* Today.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Today.xcdatamodel; sourceTree = "<group>"; };
 		2D9096922C3E3D42005EBC4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		2D9096A62C3E3D42005EBC4F /* TodayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9096AA2C3E3D42005EBC4F /* TodayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayUITests.swift; sourceTree = "<group>"; };
 		2D9096AC2C3E3D42005EBC4F /* TodayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2D9096BA2C3E3DF7005EBC4F /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +103,10 @@
 		2D9096852C3E3D41005EBC4F /* Today */ = {
 			isa = PBXGroup;
 			children = (
+				2D9096B92C3E3DD5005EBC4F /* Model */,
 				2D9096862C3E3D41005EBC4F /* AppDelegate.swift */,
 				2D9096882C3E3D41005EBC4F /* SceneDelegate.swift */,
-				2D90968A2C3E3D41005EBC4F /* ViewController.swift */,
+				2D90968A2C3E3D41005EBC4F /* ReminderListViewController.swift */,
 				2D90968C2C3E3D41005EBC4F /* Main.storyboard */,
 				2D9096922C3E3D42005EBC4F /* Assets.xcassets */,
 				2D9096942C3E3D42005EBC4F /* LaunchScreen.storyboard */,
@@ -128,6 +131,14 @@
 				2D9096AC2C3E3D42005EBC4F /* TodayUITestsLaunchTests.swift */,
 			);
 			path = TodayUITests;
+			sourceTree = "<group>";
+		};
+		2D9096B92C3E3DD5005EBC4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D9096BA2C3E3DF7005EBC4F /* Reminder.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D90968B2C3E3D41005EBC4F /* ViewController.swift in Sources */,
+				2D90968B2C3E3D41005EBC4F /* ReminderListViewController.swift in Sources */,
 				2D9096872C3E3D41005EBC4F /* AppDelegate.swift in Sources */,
 				2D9096892C3E3D41005EBC4F /* SceneDelegate.swift in Sources */,
 				2D9096912C3E3D41005EBC4F /* Today.xcdatamodeld in Sources */,
+				2D9096BB2C3E3DF7005EBC4F /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
