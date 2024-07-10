@@ -1,11 +1,8 @@
-//
-//  Reminder.swift
-//  Today
-//
-//  Created by 김동운 on 7/10/24.
-//
-import Foundation
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
+import Foundation
 
 struct Reminder {
     var title: String
@@ -13,7 +10,6 @@ struct Reminder {
     var notes: String? = nil
     var isComplete: Bool = false
 }
-
 
 #if DEBUG
 extension Reminder {
